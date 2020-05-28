@@ -37,4 +37,8 @@ public class Task implements Serializable {
         this.tDes = tDes;
     }
 
+    @Override
+    public String toString() {
+        return  id + " "+ tName +" \n"+  tDes;
+    }
 }
