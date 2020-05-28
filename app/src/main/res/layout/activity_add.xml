@@ -19,7 +19,7 @@
         android:ems="10"
         android:inputType="textPersonName" />
 
-    <TextView
+      <TextView
         android:id="@+id/tvDescription"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -28,6 +28,19 @@
 
     <EditText
         android:id="@+id/etDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/tvTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remind in seconds"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/etTime"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:ems="10"
